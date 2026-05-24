@@ -52,14 +52,3 @@ Automatização de processos fiscais e comerciais
 Geração automatizada de documentos fiscais
 Impressão automatizada de pedidos, recibos e notas fiscais
 Otimização e padronização de processos internos
-
-🏢 Empresas e instituições atendidas
-
-Amaggi
-Aprosoja
-Caieira
-Shalon
-Coabra
-Cooperfibra
-FIEAM
-FIERO
