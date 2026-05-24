@@ -1,3 +1,5 @@
+<img width="1600" height="639" alt="image" src="https://github.com/user-attachments/assets/4a75ef30-7a87-40ab-8fce-89f6667fe1d8" />
+
 👨‍💻 Sobre mim
 
 Olá! Me chamo Arthur Loni e atualmente curso Engenharia de Software na FATEC SENAI Mato Grosso.
