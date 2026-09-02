@@ -17,7 +17,7 @@
 ```
 
 <div align="center">
-<img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=arthurloni&theme=dracula&commands=neofetch,languages,top-repos,exit" width="600" />
+<img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=arthurloni&theme=dracula&commands=neofetch,languages,top-repos,exit&v=1" width="600" />
 </div>
 
 ### `$ skills.json`
