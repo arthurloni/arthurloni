@@ -57,5 +57,10 @@
 ### `$ formacao.txt`
 
 ```bash
-# Engenharia de Software — FATEC SENAI Mato Grosso (em andamento)
+# FATEC SENAI Mato Grosso
+# Ensino Médio Técnico em Desenvolvimento de Sistemas (Concluído)
+```
+```bash
+# FATEC SENAI Mato Grosso
+# Engenharia de Software (em andamento)
 ```
