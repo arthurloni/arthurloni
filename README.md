@@ -1,21 +1,8 @@
-
-### `$ status.sh`
-
-```bash
-# Estatísticas Diárias
-# --------------------
-# Repositórios públicos : 3
-# Contribuições no ano  : 110
-# Tempo de T.I          : 2 anos e 8 meses
-```
 <div align="center">
 
 ## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=FFFFFF&width=440&lines=Ol%C3%A1%2C+Seja+bem+vindo...;Me+chamo+Arthur+Loni;Desenvolvedor+Back-end)](https://git.io/typing-svg)
 
 </div>
-
-<!--START_SECTION:stats-->
-<!--END_SECTION:stats-->
 
 ### `$ sobre-mim.sh`
 
@@ -28,6 +15,10 @@
 # Atuação em múltiplos módulos: Compras, Financeiro,
 # Contabilidade, Contrato de Parceria, entre outros processos...
 ```
+
+<div align="center">
+<img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=arthurloni&theme=dracula&commands=neofetch,top-repos,exit&v=1" width="550" />
+</div>
 
 ### `$ skills.json`
 
