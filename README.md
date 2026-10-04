@@ -16,9 +16,7 @@
 # Contabilidade, Contrato de Parceria, entre outros processos...
 ```
 
-<div align="center">
-<img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=arthurloni&theme=dracula&commands=neofetch,top-repos,exit&v=3" width="700" />
-</div>
+### `$ status.sh`
 
 ### `$ skills.json`
 
