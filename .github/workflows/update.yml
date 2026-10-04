@@ -1,0 +1,29 @@
+name: Atualizar CLI Stats
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Roda todos os dias às 3 da manhã
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Rodar script de atualização
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node update-stats.js
+        
+      - name: Comitar mudanças no repositório
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "Atualizando dados da CLI diária" || exit 0
+          git push
