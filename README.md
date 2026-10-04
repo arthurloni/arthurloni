@@ -1,13 +1,6 @@
+<!--START_SECTION:stats-->
+<!--END_SECTION:stats-->
 
-### `$ status.sh`
-
-```bash
-# Estatísticas Diárias
-# --------------------
-# Repositórios públicos : 3
-# Contribuições no ano  : 107
-# Tempo de T.I          : 2 anos e 8 meses
-```
 <div align="center">
 
 ## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=FFFFFF&width=440&lines=Ol%C3%A1%2C+Seja+bem+vindo...;Me+chamo+Arthur+Loni;Desenvolvedor+Back-end)](https://git.io/typing-svg)
@@ -25,9 +18,6 @@
 # Atuação em múltiplos módulos: Compras, Financeiro,
 # Contabilidade, Contrato de Parceria, entre outros processos...
 ```
-
-<!--START_SECTION:stats-->
-<!--END_SECTION:stats-->
 
 ### `$ skills.json`
 
