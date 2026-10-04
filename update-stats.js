@@ -34,32 +34,41 @@ async function fetchStats() {
     const repos = data.data.user.repositories.totalCount;
     const commits = data.data.user.contributionsCollection.contributionCalendar.totalContributions;
 
+    // Cálculo do tempo de T.I (desde fevereiro de 2024) - Forma segura
     const start = new Date('2024-02-01');
     const now = new Date();
     let years = now.getFullYear() - start.getFullYear();
     let months = now.getMonth() - start.getMonth();
+    
     if (months < 0) { 
         years--; 
         months += 12; 
     }
     
-    let timeStr = '';
-    if (years > 0) timeStr += `\({years} ano\){years > 1 ? 's' : ''} e `;
-    timeStr += `\({months} mês\){months > 1 ? 'es' : ''}`;
+    let labelAno = years > 1 ? "anos" : "ano";
+    let labelMes = months > 1 ? "meses" : "mês";
+    
+    let timeStr = "";
+    if (years > 0) {
+        timeStr = years + " " + labelAno + " e " + months + " " + labelMes;
+    } else {
+        timeStr = months + " " + labelMes;
+    }
 
+    // Novo visual padronizado com o seu perfil (usando # em vez de >)
     const cliBlock = 
-    `\`\`\`bash\n` +
-    `> arthurloni@github:~$ ./status.sh\n` +
-    `> \n` +
-    `> [>] Repositórios públicos : ${repos}\n` +
-    `> [>] Contribuições/ano     : ${commits}\n` +
-    `> [>] Tempo de T.I          : ${timeStr}\n` +
-    `\`\`\``;
+    "```bash\n" +
+    "# Estatísticas Diárias \n" +
+    "# --------------------\n" +
+    "# Repositórios públicos : " + repos + "\n" +
+    "# Contribuições no ano  : " + commits + "\n" +
+    "# Tempo de T.I          : " + timeStr + "\n" +
+    "```";
 
     let readme = fs.readFileSync('README.md', 'utf8');
     readme = readme.replace(
       /[\s\S]*/, 
-      `\n${cliBlock}\n`
+      "\n" + cliBlock + "\n"
     );
 
     fs.writeFileSync('README.md', readme);
