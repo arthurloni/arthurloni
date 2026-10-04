@@ -34,7 +34,6 @@ async function fetchStats() {
     const repos = data.data.user.repositories.totalCount;
     const commits = data.data.user.contributionsCollection.contributionCalendar.totalContributions;
 
-    // Cálculo dinâmico do tempo
     const start = new Date('2024-02-01');
     const now = new Date();
     let years = now.getFullYear() - start.getFullYear();
@@ -55,19 +54,22 @@ async function fetchStats() {
         timeStr = months + " " + labelMes;
     }
 
+    // VISUAL CORRETO E PADRONIZADO (COM O '#')
     const cliBlock = 
     "### `$ status.sh`\n\n" +
     "```bash\n" +
-    "> arthurloni@github:~$ ./status.sh\n" +
-    "> \n" +
-    "> [>] Repositórios públicos : " + repos + "\n" +
-    "> [>] Contribuições no ano  : " + commits + "\n" +
-    "> [>] Tempo de T.I          : " + timeStr + "\n" +
+    "# Estatísticas Diárias\n" +
+    "# --------------------\n" +
+    "# Repositórios públicos : " + repos + "\n" +
+    "# Contribuições no ano  : " + commits + "\n" +
+    "# Tempo de T.I          : " + timeStr + "\n" +
     "```";
 
     let readme = fs.readFileSync('README.md', 'utf8');
+    
+    // REGEX AJUSTADA PARA NÃO APAGAR O RESTO DO SEU PERFIL
     readme = readme.replace(
-      /[\s\S]*/, 
+      /[\s\S]*?/, 
       "\n" + cliBlock + "\n"
     );
 
