@@ -1,3 +1,8 @@
+<div align="center">
+
+## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=FFFFFF&width=440&lines=Ol%C3%A1%2C+Seja+bem+vindo...;Me+chamo+Arthur+Loni;Desenvolvedor+Back-end)](https://git.io/typing-svg)
+
+</div>
 
 ### `$ status.sh`
 
@@ -10,12 +15,6 @@
 ```
 <!--START_SECTION:stats-->
 <!--END_SECTION:stats-->
-
-<div align="center">
-
-## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=FFFFFF&width=440&lines=Ol%C3%A1%2C+Seja+bem+vindo...;Me+chamo+Arthur+Loni;Desenvolvedor+Back-end)](https://git.io/typing-svg)
-
-</div>
 
 ### `$ sobre-mim.sh`
 
